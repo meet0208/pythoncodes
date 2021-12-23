@@ -1,0 +1,5 @@
+s1=input('Enter series of number:')
+l1=s1.split(',')
+t1=tuple(l1)
+print(l1)
+print(t1)
