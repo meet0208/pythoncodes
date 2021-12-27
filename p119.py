@@ -1,0 +1,5 @@
+decimal_point=int(input('Enter decimal point you want: '))
+fnum=float(input('Enter a number: '))
+print(round(fnum,decimal_point))
+print('{:.2f}'.format(fnum))
+print('%.2f'%fnum)
