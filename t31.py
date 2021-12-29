@@ -1,0 +1,5 @@
+x = (1,2,3,4)
+y = (3,5,2,1)
+z = (2,2,3,1)
+sum1=tuple(map(sum,zip(x,y,z)))
+print(sum1)
