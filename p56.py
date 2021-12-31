@@ -6,3 +6,4 @@ def terminal_size():
     return tw, th
 
 print('Number of columns and Rows: ',terminal_size())
+
