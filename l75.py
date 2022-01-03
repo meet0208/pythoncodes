@@ -1,0 +1,5 @@
+from itertools import groupby
+def encode_list(s_list):
+    return [[len(list(group)), key] for key, group in groupby(s_list)]
+n_list = [1,1,2,3,4,4.3,5, 1]
+print(encode_list(n_list))
